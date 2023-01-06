@@ -1,0 +1,52 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "3kc.dev.",
+            "Type": "A",
+            "AliasTarget": {
+                "HostedZoneId": "Z2FDTNDATAQYW2",
+                "DNSName": "d2i2jinb1tkf6k.cloudfront.net.",
+                "EvaluateTargetHealth": false
+            }
+        },
+        {
+            "Name": "3kc.dev.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-984.awsdns-59.net."
+                },
+                {
+                    "Value": "ns-1764.awsdns-28.co.uk."
+                },
+                {
+                    "Value": "ns-1311.awsdns-35.org."
+                },
+                {
+                    "Value": "ns-24.awsdns-03.com."
+                }
+            ]
+        },
+        {
+            "Name": "3kc.dev.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-984.awsdns-59.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_e3cf93fe11b458f860759b15472142af.3kc.dev.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_a84061a788ddf25dd6fbdd10d80c4a81.fbnrgqtmtt.acm-validations.aws."
+                }
+            ]
+        }
+    ]
+}
